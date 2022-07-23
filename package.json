@@ -5,10 +5,10 @@
 	"description": "Peter's React Site",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack-dev-server .",
-		"build": "Webpack .",
+		"start": "webpack-dev-server --config webpack.dev.js",
+		"build": "webpack --config webpack.prod.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"deploy": "npm run build && gh-pages -d build"
+		"deploy": "npm run build && gh-pages -d public"
 	},
 	"author": "",
 	"license": "ISC",
