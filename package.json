@@ -1,7 +1,7 @@
 {
 	"name": "peteryw-site",
 	"version": "1.0.0",
-	"homepage": "peter-y-w.github.io",
+	"homepage": "https://peter-y-w.github.io/hosted-website",
 	"description": "Peter's React Site",
 	"main": "index.js",
 	"scripts": {
